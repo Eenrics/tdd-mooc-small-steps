@@ -29,6 +29,7 @@ function createApp(database: Database) {
       return new Date(dateString);
     }
   }
+  
 
   function calculateCost(age: number | undefined, type: string, date: Date | undefined, baseCost: number) {
     if (type === "night") {
